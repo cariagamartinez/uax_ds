@@ -11,12 +11,17 @@ summary(datos)  # Resumen estadístico de las variables
 
 # 2. Análisis Exploratorio de Datos (EDA)
 # Distribución de la variable objetivo (Riesgo_Cardiovascular)
-hist(datos$Riesgo_Cardiovascular, main = "Distribución del Riesgo Cardiovascular",
-     xlab = "Riesgo Cardiovascular", ylab = "Frecuencia", col = "skyblue", border = "black")
+hist(datos$Riesgo_Cardiovascular, 
+     main = "Distribución del Riesgo Cardiovascular",
+     xlab = "Riesgo Cardiovascular", 
+     ylab = "Frecuencia", 
+     col = "skyblue", 
+     border = "black")
 
 # Relación entre Edad e IMC con el Riesgo Cardiovascular
 plot(datos$Edad, datos$Riesgo_Cardiovascular, main = "Edad vs Riesgo Cardiovascular",
-     xlab = "Edad", ylab = "Riesgo Cardiovascular", pch = 19, col = "blue")
+     xlab = "Edad", ylab = "Riesgo Cardiovascular", pch = 12, col = "blue")
+
 plot(datos$IMC, datos$Riesgo_Cardiovascular, main = "IMC vs Riesgo Cardiovascular",
      xlab = "IMC", ylab = "Riesgo Cardiovascular", pch = 19, col = "red")
 
