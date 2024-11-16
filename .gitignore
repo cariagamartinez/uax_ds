@@ -14,4 +14,10 @@ ignorar/
 ignorar/*
 b Trabajos/.DS_Store
 
+# Documentos de R
 .Rproj.user
+.Rhistory
+
+
+#Documentos de Jupyter
+.ipynb_checkpoints
