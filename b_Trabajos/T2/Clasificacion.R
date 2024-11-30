@@ -48,7 +48,6 @@ boxplot(datos$Edad[datos$Target == 0], datos$Edad[datos$Target == 1],
         col = c("lightblue", "pink"),
         ylab = "Edad")
 
-
 boxplot(datos[, c("Edad", "Tiempo_Reaccion_1", "Medicion_1")],
         main = "Boxplot de Variables",
         col = c("lightblue", "pink", "lightgreen"),
